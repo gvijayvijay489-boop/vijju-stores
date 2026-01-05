@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VIJJU STORES</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+  font-family: Arial;
+  margin:0;
+  background:#eeeeee;
+}
+
+/* HEADER */
+header{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+header img{
+  width:90px;
+  border-radius:50%;
+  margin-bottom:10px;
+}
+
+.store-title{
+  font-size:28px;
+  font-weight:bold;
+}
+
+/* SECTION */
+.box{
+  background:white;
+  margin:15px;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:0 0 12px rgba(0,0,0,0.25);
+}
+
+/* GRID LAYOUT */
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:12px;
+}
+
+.product{
+  border:1px solid #ddd;
+  border-radius:12px;
+  padding:10px;
+  background:#fafafa;
+}
+
+.product img{
+  width:100%;
+  border-radius:12px;
+}
+
+/* TITLE */
+.product b{
+  display:block;
+  margin-top:5px;
+}
+
+/* PRICE */
+.price{
+  color:green;
+  font-weight:bold;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp{
+  display:block;
+  text-align:center;
+  background:#25D366;
+  color:white;
+  padding:8px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+  margin-top:8px;
+}
+
+/* SOCIAL ICONS */
+.social{
+  text-align:center;
+}
+
+.social a{
+  display:inline-block;
+  background:#222;
+  color:white;
+  padding:10px 15px;
+  margin:5px;
+  border-radius:10px;
+  text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:10px;
+  margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png">
+  <div class="store-title">VIJJU STORES</div>
+  <div>Premium Customized Gifts & Home Decor</div>
+</header>
+
+
+<div class="box">
+<h2>Products</h2>
+
+<div class="products">
+
+<!-- PRODUCT 1 -->
+<div class="product">
+<img src="buddha.jpg">
+<b>Meditation Buddha Idol</b>
+<div class="price">₹190</div>
+<a class="whatsapp" href="https://wa.me/919390156489?text=I%20want%20Meditation%20Buddha%20Idol">
+Order</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product">
+<img src="plant.jpg">
+<b>Artificial Mini Plant</b>
+<div class="price">₹499</div>
+<a class="whatsapp" href="https://wa.me/919390156489?text=I%20want%20Artificial%20Plant">
+Order</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product">
+<img src="frame.jpg">
+<b>Customized Photo Frame</b>
+<div class="price">₹699</div>
+<a class="whatsapp" href="https://wa.me/919390156489?text=I%20want%20Customized%20Photo%20Frame">
+Order</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product">
+<img src="keychain.jpg">
+<b>Name Keychain</b>
+<div class="price">₹149</div>
+<a class="whatsapp" href="https://wa.me/919390156489?text=I%20want%20Name%20Keychain">
+Order</a>
+</div>
+
+</div>
+</div>
+
+
+<div class="box">
+<h2>Connect With Us</h2>
+
+<div class="social">
+<a href="https://wa.me/919390156489">WhatsApp</a>
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">YouTube</a>
+</div>
+
+</div>
+
+
+<div class="box">
+<h2>Contact</h2>
+Store: VIJJU STORES<br>
+Phone: 9390156489
+</div>
+
+
+<footer>
+Made with ❤️ by VIJJU STORES
+</footer>
+
+</body>
+</html>
